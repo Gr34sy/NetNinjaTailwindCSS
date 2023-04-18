@@ -5,13 +5,13 @@
   <title>Document</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="text-gray-600">
+<body class="text-gray-600 bg-gray-100">
 
   <div>
     <div>
       <nav>
         <div>
-          <h1 class="text-white p-4">
+          <h1 class="p-4">
             <a href="/">Food Ninja</a>
           </h1>
         </div>
@@ -51,11 +51,16 @@
   
         <div class="mt-8">
           <!-- cards go here -->
-          <div> 
-            <img src="images/stew.jpg" alt="stew">
-            <div>
-              <span>5 Bean Chili Stew</span>
-              <span>Recipe by Mario</span>
+          <div class="bg-white rounded overflow-hidden shadow-md relative"> 
+            <img src="images/stew.jpg" class="w-full h-32 sm:h-48 object-cover" alt="stew">
+            <div class="m-4">
+              <span class="font-bold">5 Bean Chili Stew</span>
+              <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+            </div>
+            <div class="bg-gray-100 text-black text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2">
+              <span>
+                25 mins
+              </span>
             </div>
           </div>
         </div>
